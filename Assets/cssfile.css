@@ -1,0 +1,30 @@
+.Headline3
+{
+  font-family : Futura PT;
+  font-size : 26pt;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+}
+.Headline2
+{
+  font-family : Open Sans;
+  font-weight : bold;
+  font-size : 35pt;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+}
+.Body1
+{
+  font-family : Proxima Nova;
+  font-size : 20pt;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+}
+.Headline1
+{
+  font-family : Open Sans;
+  font-weight : bold;
+  font-size : 64pt;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+}
