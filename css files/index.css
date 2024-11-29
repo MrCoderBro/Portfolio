@@ -1,0 +1,203 @@
+.gridcontainer1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+}
+
+
+.griditem{
+    width: 100%;
+    height: 100%;
+}
+
+.buttondiv{
+    text-align: center;
+}
+
+.featuredworks{
+    background-color: #292547;
+    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.gridcontainer2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 557px 557px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+
+.gridcontainer2 > .content{
+    text-align: center;
+}
+
+.underline{
+    position: relative;
+    color: #EF4E5A;
+}
+
+.underline::after{
+    content:"";
+    position: absolute;
+    background-color: #7D2F3D;
+    display: block;
+    left: 10%;
+    bottom: -10px;
+    width: 80%;
+    height: 4px;
+}
+
+.gridcontainer2 > .griditem{
+    position: relative;
+    overflow: hidden;
+}
+
+.gridcontainer2 > .griditem > .content{
+    position: absolute;
+    inset: 0;
+}
+
+.gridcontainer2 > .griditem > img,
+.gridcontainer2 > .griditem > .content{
+    transition: 200ms ease-in-out;
+}
+
+.gridcontainer2 > .griditem:hover > img.blur{
+    filter: blur(7px);
+    opacity: 50%;
+}
+
+.gridcontainer2 > .griditem > .content.fade{
+    opacity: 0;
+}
+
+.gridcontainer2 > .griditem:hover > .content.fade{
+    opacity: 1;
+}
+
+.moreofdeveloperpart{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+    padding-bottom: 3.5%;
+}
+
+.piechart{
+    width: 30em;
+    height: 20em;
+    border-radius: 50%;
+    background: conic-gradient(
+        #EF4E5A 0% 80%,
+        #FF9912 80% 100%
+    );
+}
+
+.piechart-text{
+    margin-left: 1%;
+    justify-content: center;
+    text-align: right;
+}
+
+.rainbowtext{
+    background-image: linear-gradient(43deg,#66eb92 0%, #2e41a2 46%, #53cdcb 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.gridcontainer3{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 6%;
+    margin-right: 8%;
+    grid-column-gap: 55px;
+}
+
+.skills-section{
+    background-color: #292547;
+    padding-bottom: 3%;
+
+}
+
+
+.gridcontainer3 > .griditem{
+    border: #017F71 solid 2px;
+    text-align: center;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+
+.skills{
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.skill{
+    padding-top: 20px;
+}
+
+.skill-bar{
+    height: 20px;
+    background: #282828;
+    border-radius: 5px;
+}
+
+.skill-per{
+    height: 20px;
+    background: #00D062;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 6px 8px;
+    background: #EF4E5A;
+    border-radius: 4px;
+    font-size: 18px;
+    top: -40px;
+    right: 0;
+    transform: translateX(50%);
+    color: #F4F6FB;
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #EF4E5A;
+    top: -15px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    color: #F4F6FB;
+}
+
+.skill-name{
+    font-family : 'Montserrat';
+    font-size : 18pt;
+    color : #B8BCC5;
+}
+
+.top-footer-wrapper{
+    position: relative;
+}
+
+
+
+

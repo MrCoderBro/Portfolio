@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content-wrapper{
+    flex-basis: 1;
+    padding-top: 4%;
+}
+
+
+.content{
+    display: flex;
+
+}
+
+.details{
+    background: #292F47;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 350px;
+    height: 360px;
+}
+
+
+.content > img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*Underline*/
+
+
+.underline{
+    position: relative;
+    color: #EF4E5A;
+}
+
+.underline::after{
+    content:"";
+    position: absolute;
+    background-color: #7D2F3D;
+    display: block;
+    left: 5%;
+    bottom: -10px;
+    width: 90%;
+    height: 4px;
+}
+
+
+
+
+
+.buttondiv{
+    margin-top: 10px;
+}
+
+.secondrow{
+    padding-bottom: 4%;
+}

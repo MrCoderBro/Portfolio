@@ -1,0 +1,188 @@
+section{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.hobbies{
+    background-color: #292F47;
+    padding-top: 5px;
+}
+
+hr{
+    height: 3px;
+    color: #7D2F3D;
+    background-color: #7D2F3D;
+    border: none;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #292F47;
+}
+
+.hobbiesection > img{
+    width: 27%;
+    height: 50%;
+}
+
+.hobbiesection{
+    flex-basis: 33.3%;
+    padding-bottom: 50px;
+
+}
+
+
+.hobbiecontent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Skill Section Starts*/
+.skills-section{
+    padding-bottom: 4%;
+}
+
+.skills{
+    padding-top: 5px;
+}
+
+
+.gridcontainer3{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+
+
+.gridcontainer3 > .griditem{
+    border: #017F71 solid 2px;
+    text-align: center;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+
+.skill-bar{
+    height: 20px;
+    background: #282828;
+    border-radius: 5px;
+}
+
+.skill-per{
+    height: 20px;
+    background: #00D062;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 6px 8px;
+    background: #EF4E5A;
+    border-radius: 4px;
+    font-size: 18px;
+    top: -40px;
+    right: 0;
+    transform: translateX(50%);
+    color: #F4F6FB;
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #EF4E5A;
+    top: -15px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+    color: #F4F6FB;
+}
+
+.skill-name{
+    font-family : 'Montserrat';
+    font-size : 18pt;
+    color : #B8BCC5;
+}
+
+.skills1{
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+}
+
+.skill{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Skill Section Ends*/
+
+/* Education and Personality Section Starts*/
+.E-and-P{
+    display: flex;
+    background-color: #292F47;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.Education{
+    flex-basis: 50%;
+    padding-left: 100px;
+
+
+}
+
+.Personality{
+    flex-basis: 50%;
+    padding-left: 100px;
+}
+
+/*Underlines the Word*/
+
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    content:"";
+    position: absolute;
+    background-color: #7D2F3D;
+    display: block;
+    bottom: -10px;
+    width: 35%;
+    height: 5px;
+}
+
+/*Underline code ends here*/
+
+.content{
+    padding-top: 20px;
+}
+
+.details{
+    display: flex;
+}
+
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.content > img{
+    float: left;
+}
+
+.details-wrapper{
+    padding-top: 25px;
+    margin-right: 20px;
+}
